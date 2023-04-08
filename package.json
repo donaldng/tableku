@@ -1,5 +1,5 @@
 {
-  "name": "table-to-image",
+  "name": "BeautifooTable",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
     "core-js": "^3.6.5",
+    "dom-to-image": "^2.6.0",
+    "html2canvas": "^1.4.1",
+    "markdown-it": "^13.0.1",
+    "papaparse": "^5.4.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
